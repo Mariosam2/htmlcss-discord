@@ -69,13 +69,20 @@ img {
 a {
     text-decoration: none;
     border-radius: 18px;
-    padding: 0.8rem 1rem 0.8rem 1rem;
+    padding: 1rem 1.5rem;
+}
+
+span {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 18px;
+    vertical-align: middle;
 }
 
 
 a.white, a.black, a.blue {
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 1rem;
     
     
@@ -123,6 +130,23 @@ a:hover {
 
 /* #region main*/
 
+.large {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.title.small {
+    font-size: 2rem;
+}
+
 #site_main [class^="col-"] h3 {
     font-weight: 400;
 }
@@ -137,6 +161,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #site_main .col-4 {
@@ -146,6 +171,38 @@ a:hover {
     border-radius: 10px;
     margin-right: 1rem;
 }
+
+.subscription {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription a {
+    margin-right: 2rem;
+}
+
+.grow {
+    flex-grow: 0.2;
+}
+
+.nitro_classic img {
+    max-width: 20%;
+}
+
+.nitro_classic {
+    background-color: var(--var-blue);
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.nitro_classic .column {
+    flex-direction: column;
+}
+
 /* #region linear-gradient*/
 .better_emoji {
     background: linear-gradient(to bottom right, var(--var-aqua), var(--var-lightaqua));
@@ -162,6 +219,14 @@ a:hover {
 
 .rep_support {
     background: linear-gradient(to bottom right, var(--support-blue), var(--support-pink));
+}
+
+.bigger_files {
+    background: linear-gradient(to bottom right, var(--files-pink), var(--files-yellow));
+}
+
+.hd_video {
+    background: linear-gradient(to bottom right, var(--video-orange), var(--video-yellow));
 }
 
 /* #endregion linear-gradient */
