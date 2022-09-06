@@ -53,10 +53,6 @@ img {
 
 /* #region header */
 
-header {
-    background-color: var(--support-pink);
-}
-
 /* #region navbar */
 nav {
     justify-content: space-between;
@@ -91,6 +87,39 @@ nav .logo {
 }
 
 /* #endregion navbar */
+.wrapper {
+    background: linear-gradient(to bottom, var(--support-pink), var(--var-blue));
+}
+.wrapper img {
+    max-width: none;
+}
+
+.wrapper .nitro_classic {
+    background: transparent;
+}
+
+.wrapper .nitro_classic img, .wrapper .nitro_classic p {
+    padding-left: 0;
+    
+}
+
+.wrapper .nitro_classic img {
+    width: 50%;
+}
+
+.wrapper .nitro_classic p {
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+.wrapper .nitro_classic .subscription {
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
 
 /* #endregion header */
 
@@ -232,7 +261,7 @@ a:hover {
 }
 
 .nitro_classic {
-    background-color: var(--var-blue);
+    background: linear-gradient(to bottom,  var(--support-pink), var(--var-blue));
     justify-content: flex-end;
     
 }
