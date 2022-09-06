@@ -189,7 +189,7 @@ a:hover {
 }
 
 .nitro_classic img {
-    max-width: 20%;
+    max-width: 30%;
 }
 
 .nitro_classic {
@@ -198,10 +198,29 @@ a:hover {
     justify-content: flex-end;
 }
 
-
-.nitro_classic .column {
-    flex-direction: column;
+.nitro_classic div {
+    padding: 4rem;
+    
 }
+
+.nitro_classic div p {
+    width: 80%;
+    margin: 1rem 0;
+    color: white;
+}
+
+.nitro_classic .subscription {
+    width: 80%;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.nitro_classic .subscription a {
+    margin: 0;
+}
+
+
+
 
 /* #region linear-gradient*/
 .better_emoji {
