@@ -207,7 +207,20 @@ nav ul li a:hover {
     padding: 3rem 0;
 }
 
-/* wave background /*
+/* wave background */
+.wave-top {
+    color: #F6F6F6;
+    margin-bottom: -5px;
+    margin-top: 2rem;
+}
+.wave-bottom {
+    rotate: 180deg;
+    color: #F6F6F6;
+    margin-top: -5px;
+    margin-bottom: 2rem;
+}
+
+
 
 #stars {
     font-size: 2rem;
