@@ -37,9 +37,6 @@ img {
 }
 
 
-.debug header, .debug main {
-    height: 500px;
-}
 
 .container {
     max-width: 1260px;
@@ -53,6 +50,49 @@ img {
     display: flex;
     padding: 1rem 0;
 }
+
+/* #region header */
+
+header {
+    background-color: var(--support-pink);
+}
+
+/* #region navbar */
+nav {
+    justify-content: space-between;
+}
+nav .logo {
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu ul li {
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a {
+    padding: 0.8rem;
+    color: white;
+    font-weight: 700;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    align-items: center;
+}
+
+/* #endregion navbar */
+
+/* #endregion header */
 
 /* Utility */
 
@@ -157,7 +197,6 @@ a:hover {
 .content {
     text-align: center;
     width: 80%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -165,7 +204,6 @@ a:hover {
 }
 
 #site_main .col-4 {
-    display: flex;
     justify-content: center;
     padding: 2rem;
     border-radius: 10px;
@@ -174,7 +212,6 @@ a:hover {
 
 .subscription {
     width: 100%;
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -188,37 +225,43 @@ a:hover {
     flex-grow: 0.2;
 }
 
+/* #region nitro_classic */
+
 .nitro_classic img {
-    max-width: 30%;
+    padding-left: 3rem;
 }
 
 .nitro_classic {
     background-color: var(--var-blue);
-    display: flex;
     justify-content: flex-end;
+    
 }
 
 .nitro_classic div {
-    padding: 4rem;
+    padding: 10rem 0;
     
 }
 
 .nitro_classic div p {
+    font-size: 1.2rem;
     width: 80%;
     margin: 1rem 0;
     color: white;
+    padding-left: 3rem;
 }
 
 .nitro_classic .subscription {
     width: 80%;
     padding: 0;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .nitro_classic .subscription a {
     margin: 0;
 }
 
+/* #endregion nitro_classic */
 
 
 
