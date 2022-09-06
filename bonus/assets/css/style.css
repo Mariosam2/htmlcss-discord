@@ -80,6 +80,37 @@ button:hover {
 }
 
 
+.blue.shadow:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    
+    
+}
+
+
+
+
+.black:hover {
+    background-color: #36393f;
+}
+
+.black {
+    background-color: var(--var-black);
+}
+
+.white {
+    background-color: white;
+    
+    
+}
+
+
+
+.white a:hover {
+    color: var(--var-blue);
+}
+
+
+
 
 header button {
     height: 20%;
