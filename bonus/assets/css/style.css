@@ -364,16 +364,16 @@ footer hr {
     
 }
 
-#png_logos a {
-    width: 15%;
-    
-}
-.social {
-    max-width: 100%;
-    vertical-align: middle;
+#png_logos i {
+    color: white;
 }
 
-.social:hover {
+#png_logos i:hover {
     scale: 1.1;
     cursor: pointer;
+}
+
+#png_logos a {
+    padding: 0;
+    border-radius: 0;
 }

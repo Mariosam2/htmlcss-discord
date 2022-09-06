@@ -47,35 +47,26 @@ header {
 }
 
 /* buttons */
-button {
-    border: none;
+a {
+    text-decoration: none;
+    border-radius: 18px;
     padding: 0.8rem 1rem 0.8rem 1rem;
+}
+
+
+a.white, a.black, a.blue {
+    border: none;
     font-size: 20px;
     margin-left: 1rem;
-    border-radius: 18px;
+    
+    
     
 }
 
-button:hover {
-    cursor: pointer;
-}
-
-.blue a, .black a{
-    color: white;
-}
-
-.white a{
+.white{
     color: black;
-}
-
-.white {
     background-color: white;
 }
-
-.black {
-    background-color: var(--var-black);
-}
-
 
 .blue {
     background-color: var(--var-blue);
@@ -83,13 +74,27 @@ button:hover {
     
 }
 
+.black {
+    background-color: var(--var-black);
+}
+
+.blue, .black{
+    color: white;
+}
 
 
-header button {
+
+
+header a.white {
     height: 20%;
     align-self: center;
    
 }
+
+
+
+
+
 
 .arrow {
     padding-right: 0.3rem;
@@ -129,8 +134,7 @@ nav ul li  {
 
 nav ul li a {
     color: white;
-    padding: 1rem;
-    border-radius: 18px;
+    
 }
 
 nav ul li a:hover {
@@ -332,16 +336,16 @@ footer hr {
     
 }
 
-#png_logos a {
-    width: 15%;
-    
-}
-.social {
-    max-width: 100%;
-    vertical-align: middle;
+#png_logos i {
+    color: white;
 }
 
-.social:hover {
+#png_logos i:hover {
     scale: 1.1;
     cursor: pointer;
+}
+
+#png_logos a {
+    padding: 0;
+    border-radius: 0;
 }
