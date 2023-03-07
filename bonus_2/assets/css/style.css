@@ -92,6 +92,7 @@ nav .logo {
 }
 .wrapper img {
     max-width: none;
+    object-fit: contain;
 }
 
 .wrapper .nitro_classic {
